@@ -15,11 +15,11 @@ var b = +prompt("2sonni kiriting?");
 var c = +prompt("3sonni kiriting?");
 
 if (a > b && a > c) {
-  console.log(`${a} soningiz katta`);
+  alert(`${a} soningiz katta`);
 } else if (b > c) {
-  console.log(`${b}  soningiz katta`);
+  alert(`${b}  soningiz katta`);
 } else if (a == b && a == c && b == c) {
-  console.log("siz hamma soningizni bir xil kiritdingiz");
+  alert("siz hamma soningizni bir xil kiritdingiz");
 } else {
-  console.log(`${c} soningiz katta`);
+  alert(`${c} soningiz katta`);
 }
